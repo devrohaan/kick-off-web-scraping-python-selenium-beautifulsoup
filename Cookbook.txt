@@ -1,0 +1,73 @@
+#####################################################################################################                                                                                                        #
+# Hi Buddy!
+#
+# Installation Guide. 
+# For more information visit: 
+#                            https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+#		                          http://selenium-python.readthedocs.io/	
+#				
+#
+# System: Ubuntu LTS 16.04	       
+#	     apt (Advanced Packaging Tool)
+#	     python3.6 as pip comes pre-installed
+#
+#
+####################################################################################################
+
+1. sudo apt install python-pip python-dev build-essential
+ 
+2. sudo pip install --upgrade pip 
+
+3. sudo pip install --upgrade virtualenv 
+
+####################################################################################################
+
+Installation: Command_Line
+
+Install BeautifulSoup
+
+1. pip install beautifulsoup4
+
+Install Selenium
+
+2. pip install selenium
+
+Install Pandas
+
+3. pip install pandas
+
+Install Tabulate
+
+4. pip install tabulate
+
+Install CSV
+
+5. pip install csv
+
+Install PhantomJS
+
+6. sudo apt install phantomJS
+
+Install ChromeDriver
+
+7. sudo apt install chromedriver
+
+Install Chrome:
+
+8. sudo apt install unzip
+
+9. wget -O /tmp/chromedriver.zip http://chromedriver.storage.googleapis.com/2.20/chromedriver_linux64.zip && sudo unzip /tmp/chromedriver.zip chromedriver -d /usr/bin/
+
+10. sudo chmod +x geckodriver
+
+For Firefox:
+
+11. wget https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-linux64.tar.gz
+
+12. sudo tar -xvzf geckodriver*
+
+13.sudo chmod +x geckodriver
+
+
+
+
