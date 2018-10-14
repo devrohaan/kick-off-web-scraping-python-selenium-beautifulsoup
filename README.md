@@ -32,11 +32,11 @@
    
    4.2 [Pablo_quotes](https://github.com/robagwe/kick-off-web-scraping-python-selenium-beautifulsoup/tree/master/pablo_quotes)
    
-   4.3 [Premier_league_score_table](https://github.com/robagwe/kick-off-web-scraping-python-selenium-beautifulsoup/tree/master/premier_league_score_table)
+   4.3 [Premier_League_score_table](https://github.com/robagwe/kick-off-web-scraping-python-selenium-beautifulsoup/tree/master/premier_league_score_table)
    
-   4.4 [Bhagavad Gita Lessons]()
+   4.4 [Bhagavad Gita Lessons](https://github.com/robagwe/kick-off-NLP-Natural_Language_Processing-Python/blob/master/0_Data_Extraction/ScrapDataK/scrapDataKCDIssue.py)
    
-   4.5 [Akbar_Birbal_stories]()
+   4.5 [Akbar_Birbal_Stories](https://github.com/robagwe/kick-off-NLP-Natural_Language_Processing-Python/blob/master/0_Data_Extraction/Eg_Data_Extraction_WebScarping/quickDataScrap.py)
 
 
 ## <img src="https://github.com/robagwe/wisdomic-panda/blob/master/imgs/acr.png" width="50">   Hey Buddy!</img>
