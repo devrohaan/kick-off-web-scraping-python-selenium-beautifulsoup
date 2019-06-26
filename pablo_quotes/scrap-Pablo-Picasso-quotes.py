@@ -5,13 +5,13 @@ Created on Wed Jun  6 11:00:10 2016
 
 @author: Rohan
 
-Simple Python Web Scraper: Scrap Pablo Picasso Quotes 
+Simple Python Web Scraper: Scrap Pablo Picasso Quotes
 
 Script Requirements: Python3, selenium, PhantomJS, csv, time
 
 """
 
-import WebDriver
+from WebDriver import WebDriver
 from urllib.error import HTTPError
 import time
 import csv
@@ -29,18 +29,18 @@ def getPabloQuotes(browser):
         for quotes, quote_link in zip(pb_Qoutes, pb_links):
             print (quotes.text, quote_link.get_attribute('href'))
             writer.writerow((quotes.text, quote_link.get_attribute('href')))
-    
+
     except (HTTPError, AttributeError) as e:
         print("Error:",e)
     finally:
-        #csvFile.close()
+        csvFile.close()
         browser.driver.quit()
-    
-    
+
+
 if __name__ == "__main__":
-    
+
     start_time = time.time()
-    browser = WebDriver("PhantomJS") # you can give three options here 1.Firefox 2.ChromeDriver 3.PhantomJS
+    browser = WebDriver("ChromeDriver") # you can give three options here 1.Firefox 2.ChromeDriver 3.PhantomJS
     getPabloQuotes(browser)
     print("Quotes are Updated in PB_Quotes.csv")
     print("Execution Time: ", time.time() - start_time, "secomds")
