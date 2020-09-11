@@ -3,7 +3,7 @@
 
 # Beginner's guide to Web Scraping using Beautifulsoap, Selenium and python! 
 *... a technique used for extracting data from web/websites.*
-###### All Minds Meet’ 2017.
+###### All Minds Meet’ 2018.
 
 <img src="https://github.com/robagwe/wisdomic-panda/blob/master/imgs/scrap.gif" width=990> 
 
